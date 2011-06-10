@@ -1,0 +1,48 @@
+----------
+WHAT IS QUAKEFELT?
+----------
+QuakeFelt is a humanitarian project kick started at Random Hacks of Kindness (Melbourne).
+It's purpose is to crowd-source individual experiences of the earthquake.
+This information will assist disaster response teams, researchers and communities by providing real-time crowd-sourced earthquake intensity data.
+Share your experiences and read about others.
+
+Source code available on GitHub https://github.com/jamesgiang/QuakeFelt 
+
+----------
+RHOKMELBOURNE PROJECT TEAM
+----------
+Nick Horspool
+James Giang
+Chris Van Raay
+Ryan Seddon
+Michael Mifsud
+Audrey Kuan
+Stuart Sherwood
+Kai Brach
+James McNamee
+Benson Lim
+Sean Morrison
+
+----------
+VERSION HISTORY (CHANGELOG)
+----------
+v1.0
+-Initial release for RHoKMelbourne
+(Please note functions/data sources were stubbed in order to deliver a working prototype in time)
+
+----------
+LICENSE
+----------
+Copyright 2011 James Giang
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

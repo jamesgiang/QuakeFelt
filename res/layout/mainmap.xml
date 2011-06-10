@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * QuakeFelt: A humanitarian project for Random hacks of Kindness (Melbourne)
+ * mainmap.xml
+ *
+ * @author James Giang
+ *
+ * Copyright 2011 James Giang
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <include android:id="@+id/header" layout="@layout/header" />
+    <include android:id="@+id/quakeinfo" layout="@layout/quakeinfo" />
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    	
+    	<com.google.android.maps.MapView
+		android:id="@+id/mapview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+		android:apiKey="0GCHdT0Q1ayQQ-3lzApRA6B7K2MO5Epbxds9Tnw" />	
+		<TextView
+			android:id="@+id/alertmessage"
+			android:textColor="#FFFFFFFF"
+			android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:background="#1693A7"
+			android:gravity="center_horizontal"
+			android:layout_margin="10dip"			 />
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:gravity="center_horizontal"
+			android:src="@drawable/marker_legend"		 />
+			
+	</RelativeLayout>
+</LinearLayout>

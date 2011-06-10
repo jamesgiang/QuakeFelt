@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * QuakeFelt: A humanitarian project for Random hacks of Kindness (Melbourne)
+ * arrays.xml
+ *
+ * @author James Giang
+ *
+ * Copyright 2011 James Giang
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+-->
+
+<resources>
+    <string-array name="other_felt">
+        <item>None</item>
+        <item>Some</item>
+        <item>Most</item>
+        <item>Everyone</item>
+    </string-array>
+    <string-array name="asleep">
+        <item>Awake</item>
+        <item>Asleep</item>
+        <item>Woken Up</item>
+    </string-array>
+    <string-array name="situation">
+        <item>Inside</item>
+        <item>Outside</item>
+        <item>Moving Vehicle</item>
+        <item>Stationary Vehicle</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="motion">
+        <item>Not Felt</item>
+        <item>Weak</item>
+        <item>Mild</item>
+        <item>Moderate</item>
+        <item>Strong</item>
+        <item>Violent</item>
+    </string-array>
+    <string-array name="duration">
+        <item>1 second</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>40 seconds</item>
+        <item>50 seconds</item>
+        <item>1 minute</item>
+        <item>1 minute 30 seconds</item>
+        <item>2 minutes</item>
+       	<item>2 minutes 30 seconds</item>
+        <item>3 minutes</item>
+        <item>3 minutes 30 seconds</item>
+        <item>4 minutes</item>
+        <item>4 minutes 30 seconds</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="reaction">
+        <item>Took no action</item>
+        <item>Moved doorway</item>
+        <item>Dropped and covered</item>
+        <item>Ran outside</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="response">
+        <item>No reaction/Not felt</item>
+        <item>Very little reaction</item>
+        <item>Excitement</item>
+        <item>Very frightened</item>
+        <item>Extremely frightened</item>
+    </string-array>
+    
+    <string-array name="sway">
+    	<item>None</item>
+    	<item>Slightly</item>
+    	<item>Violently</item>
+    </string-array>
+    
+    <string-array name="creak">
+    	<item>None</item>
+    	<item>Slight</item>
+    	<item>Loud</item>
+    </string-array>
+    
+    <string-array name="shelf">
+    	<item>Rattled slightly</item>
+    	<item>Rattled loudly</item>
+    	<item>A few objects toppled or fell off</item>
+    	<item>Many objects fell off</item>
+    	<item>Nearly everything fell off</item>
+    </string-array>
+    
+    <string-array name="picture">
+    	<item>No</item>
+    	<item>Yes, but did not fall</item>
+    	<item>Yes, and some fell</item>
+    </string-array>
+    
+    <string-array name="heavy_appliance">
+    	<item>Some contents fell out</item>
+    	<item>Shifted slightly</item>
+    	<item>Overturned</item>
+    </string-array>
+    
+    <string-array name="walls">
+    	<item>Some were cracked</item>
+    	<item>Some partially fell</item>
+    	<item>Some fell completely</item>
+    </string-array>
+    
+</resources>
